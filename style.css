@@ -274,6 +274,82 @@ header{
 /* from line 80 to 102 */
 /* HEADER */
 
+/* video-banner CSS */
+/* from line 63 to 77 */
+.video-section{
+    height: 88vh;
+    /* width: 99.7vw; */
+    /* border:2px solid red; */
+    margin-top: 10px;  
+    display: flex; 
+    justify-content:space-evenly;
+    align-items: center;
+
+    
+}
+.box1_video{
+    border: 1px solid black;
+    width: 40%;
+    height: 500px;
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+    box-shadow: 3px 3px 1px grey;
+}
+video{
+    height: 500px;
+    width: 100%;
+}
+.box2-video{
+    /* border: 2px solid black; */
+    width: 43%;
+    height: 500px;
+    display: flex; 
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.h1-section{
+    text-align: center;
+    font-weight: bolder; 
+   
+}
+.h1-box2-video{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px grey;
+}
+.p-box2-video{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.btn-video{
+    font-size: 1.5rem;
+  
+    /* font-weight: bold; */
+    padding: 5px 20px;
+    /* margin-left: 26px; */
+    margin-top: 50px;
+    border-radius: 10px;
+    /* border: none; */
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.btn-video:hover{
+    background-color: black;
+    color: white;
+    /* box-shadow: 0px 3px 1px grey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* most viewed product css */
+/* from line 80 to 102 */
+/* HEADER */
+
 .h1-mostviewed{
     text-align: center;
     font-size: 2.5rem;
@@ -303,7 +379,10 @@ header{
     border: 1px solid black;
     width: 350px;
     height: 350px;
-
+    /* display: flex; 
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; */
     box-shadow: 3px 3px 1px grey;
 margin-top:10px
 }
@@ -311,7 +390,17 @@ margin-top:10px
     border: 1px solid black;
     width: 350px;
     height: 350px;
-
+    /* display: flex; 
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; */
+    box-shadow: 3px 3px 1px grey;
+    margin-top:10px
+}
+img{
+    width: 350px;
+    height: 350px;
+}
 .h1_container-mostviewed{
     text-align: center;
     margin-top: 20px ;
@@ -342,7 +431,26 @@ margin-top:10px
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* FOOTER */
+/* BACK TO TOP  */
+.back{ 
+    width: 100vw;
+    height: 60px;
+    background-color: #ffebd4;
+    text-align: center;
+    line-height: 60px;
+} 
+.back a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+} 
 
+/* CONTACT  */
+footer{
+    margin-top: 100px;
+    font-family: 'Comfortaa', cursive;
+}
 
 .contact{
     width:100vw;
@@ -410,4 +518,4 @@ i{
 }
 .p-social{
     margin-top: 15px;
-}
+} 
